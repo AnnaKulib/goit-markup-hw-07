@@ -5,20 +5,23 @@
 //base
 @import './base/common';
 
-////Components
+//Components
 @import './components/container';
+@import './components/section-title';
+@import './components/button';
+@import './components/logo';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/modal-btn';
+@import './components/modal-form';
 
 //Layout
 @import './layout/header';
+@import './layout/navigation';
+@import './layout/contact';
 @import './layout/hero';
 @import './layout/features';
 @import './layout/works';
 @import './layout/teems';
 @import './layout/clients';
 @import './layout/footer';
-
-//components
-@import './components/backdrop';
-@import './components/modal';
-@import './components/modal-btn';
-@import './components/modal-form';

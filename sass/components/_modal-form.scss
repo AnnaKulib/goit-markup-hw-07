@@ -13,7 +13,7 @@
   line-height: 1.15;
   text-align: center;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .form-field {
@@ -52,7 +52,7 @@
 .form-message:hover,
 .form-message:focus {
   outline: none;
-  border-color: var(--accent-color);
+  border-color: $accent-color;
 }
 
 .form-icon {
@@ -69,7 +69,7 @@
 
 .form-input:hover + .form-icon,
 .form-input:focus + .form-icon {
-  fill: var(--accent-color);
+  fill: $accent-color;
 }
 
 .form-message {
@@ -128,7 +128,7 @@
   line-height: 1.71;
   text-decoration: none;
 
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .form-policy-link::after {

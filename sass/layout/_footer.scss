@@ -10,7 +10,7 @@
   margin-bottom: 20px;
 
   text-decoration: none;
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-contacts {
@@ -20,11 +20,11 @@
 .adress-link {
   text-decoration: none;
   font-style: normal;
-  font-size: var(--base-font-size);
+  font-size: $base-font-size;
   line-height: 1.71;
   letter-spacing: 0.03em;
 
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-contact-link {
@@ -32,7 +32,7 @@
   margin-top: 9px;
 
   text-decoration: none;
-  font-size: var(--base-font-size);
+  font-size: $base-font-size;
   line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
@@ -57,7 +57,7 @@
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--primary-white-color);
+  color: $primary-white-color;
 }
 
 .footer-social-list {
@@ -95,12 +95,12 @@
   width: 20px;
   height: 20px;
 
-  fill: var(--primary-white-color);
+  fill: $primary-white-color;
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 
 .form-invite {

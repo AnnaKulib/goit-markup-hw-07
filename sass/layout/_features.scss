@@ -22,7 +22,7 @@
   justify-content: center;
   align-items: center;
 
-  background-color: var(--button-background-color);
+  background-color: $button-background-color;
 }
 
 .features-icon {
@@ -35,14 +35,14 @@
   padding-top: 30px;
 
   font-weight: 700;
-  font-size: var(--base-font-size);
+  font-size: $base-font-size;
   line-height: 1.14;
   text-transform: uppercase;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 
 .features-descr {
-  font-size: var(--base-font-size);
+  font-size: $base-font-size;
   line-height: 1.71;
 }
