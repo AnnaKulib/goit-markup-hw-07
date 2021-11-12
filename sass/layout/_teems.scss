@@ -1,21 +1,21 @@
-.section-teems {
+.section-teem {
   padding-top: 94px;
   padding-bottom: 94px;
 
   background-color: #f5f4fa;
 }
 
-.teems-section-title {
+.section-teem__title {
   margin-bottom: 50px;
 }
 
-.teems-list {
+.team__grid {
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
 }
 
-.teems-list-item {
+.grid__item {
   flex-basis: calc(100% / 4 - 30px);
   margin-left: 30px;
 
@@ -24,14 +24,14 @@
   border-radius: 0px 0px 4px 4px;
 }
 
-.masters-item-description {
+.grid__desc {
   padding-top: 30px;
   padding-bottom: 30px;
 
   background-color: $primary-white-color;
 }
 
-.teems-list-title {
+.team__title {
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -42,7 +42,7 @@
   color: $title-text-color;
 }
 
-.teems-list-desc {
+.team__desc {
   margin-bottom: 16px;
 
   font-size: 16px;

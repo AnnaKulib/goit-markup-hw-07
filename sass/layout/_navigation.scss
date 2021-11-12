@@ -1,29 +1,41 @@
 .nav {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-.nav .logo-header {
-  margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
-
-.nav-links {
+.nav__list {
   display: flex;
 }
 
-.nav-links .item:not(:last-child) {
+.nav__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.nav-links .link {
+.nav__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
+  text-decoration: none;
+  font-weight: 500;
+  font-size: var(--base-font-size);
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+
+  transition-property: color;
+  transition-duration: $tr-duration;
+  transition-timing-function: $tr-timing-function;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
 }
 
-.link.current {
+.nav__link.current {
   position: relative;
 
   color: $accent-color;
