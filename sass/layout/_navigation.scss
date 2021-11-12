@@ -1,7 +1,5 @@
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexible(flex);
 }
 
 .nav__list {
@@ -19,15 +17,13 @@
 
   text-decoration: none;
   font-weight: 500;
-  font-size: var(--base-font-size);
+  font-size: $base-font-size;
   line-height: 1.14;
   letter-spacing: 0.02em;
 
-  color: var(--title-text-color);
+  color: $title-text-color;
 
-  transition-property: color;
-  transition-duration: $tr-duration;
-  transition-timing-function: $tr-timing-function;
+  transition: color $tr-duration $tr-timing-function;
 
   &:hover,
   &:focus {

@@ -3,9 +3,7 @@
 }
 
 .form-invite__button {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  @include flexible(inline-flex);
 
   &::after {
     content: '';

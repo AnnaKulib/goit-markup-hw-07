@@ -4,8 +4,8 @@
 }
 
 .portfolio__filter {
-  display: flex;
-  justify-content: center;
+  @include flexible(flex);
+
   margin-bottom: 50px;
 }
 
@@ -60,9 +60,7 @@
   display: block;
   text-decoration: none;
 
-  transition-property: box-shadow;
-  transition-duration: $tr-duration;
-  transition-timing-function: $tr-timing-function;
+  transition: box-shadow $tr-duration $tr-timing-function;
 
   &:hover,
   &:focus {
@@ -87,9 +85,8 @@
   top: 50%;
   left: 0;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flexible(flex);
+
   padding-left: 24px;
   padding-right: 24px;
 

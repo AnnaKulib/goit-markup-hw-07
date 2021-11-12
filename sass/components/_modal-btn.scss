@@ -2,17 +2,17 @@
   position: absolute;
   top: 8px;
   right: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+  @include flexible(flex);
   /* margin-left: auto; */
+
   width: 30px;
   height: 30px;
   background-color: $primary-white-color;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill $tr-duration $tr-timing-function;
 
   // !!!!! Сомневаюсь, что правильно!
   &:hover .btn-close__icon,
