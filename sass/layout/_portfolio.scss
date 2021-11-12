@@ -31,16 +31,16 @@
   transition-property: background-color, box-shadow, color;
   transition-duration: $tr-duration;
   transition-timing-function: $tr-timing-function;
-}
 
-.filter__button:hover,
-.filter__button:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
 
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
 
-  color: $primary-white-color;
+    color: $primary-white-color;
+  }
 }
 
 .portfolio__list {
@@ -63,12 +63,12 @@
   transition-property: box-shadow;
   transition-duration: $tr-duration;
   transition-timing-function: $tr-timing-function;
-}
 
-.portfolio__link:hover,
-.portfolio__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .portfolio__card {
@@ -106,6 +106,7 @@
     top $tr-duration $tr-timing-function;
 }
 
+// !!!!!! Здесь тоже надо переделать
 .portfolio__link:focus .portfolio__desc,
 .portfolio__link:hover .portfolio__desc {
   opacity: 1;

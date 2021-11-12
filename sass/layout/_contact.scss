@@ -36,9 +36,10 @@
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover .contac__icon,
-.contact__link:focus .contac__icon,
-.contact__link:hover .contac__icon,
-.contact__link:focus .contac__icon {
+// !!!!!!! Переделать!
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon,
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: $accent-color;
 }

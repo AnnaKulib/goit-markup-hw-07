@@ -35,7 +35,8 @@
   }
 }
 
-.nav__link.current {
+// ???? Нужен ли тут класс нав-линк?
+.current {
   position: relative;
 
   color: $accent-color;

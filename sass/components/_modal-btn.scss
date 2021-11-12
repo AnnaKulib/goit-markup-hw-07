@@ -13,15 +13,16 @@
   border-radius: 50%;
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  // !!!!! Сомневаюсь, что правильно!
+  &:hover .btn-close__icon,
+  &:focus .btn-close__icon {
+    fill: $accent-color;
+  }
 }
 
 .btn-close__icon {
   fill: #000000;
   width: 18px;
   height: 18px;
-}
-
-.btn-close:hover .btn-close__icon,
-.btn-close:focus .btn-close__icon {
-  fill: $accent-color;
 }

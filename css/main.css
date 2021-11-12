@@ -333,16 +333,10 @@ img {
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .backdrop.is-hidden {
   visibility: hidden;
   opacity: 0;
   pointer-events: none;
-}
-
-.backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.5);
-          transform: translate(-50%, -50%) scale(0.5);
 }
 
 .modal {
@@ -386,16 +380,14 @@ img {
   -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.btn-close:hover .btn-close__icon, .btn-close:focus .btn-close__icon {
+  fill: #2196f3;
+}
 
 .btn-close__icon {
   fill: #000000;
   width: 18px;
   height: 18px;
-}
-
-.btn-close:hover .btn-close__icon,
-.btn-close:focus .btn-close__icon {
-  fill: #2196f3;
 }
 
 /* .form {
@@ -423,7 +415,6 @@ img {
           flex-direction: column;
   margin-bottom: 10px;
 }
-
 .form__field:nth-child(5) {
   margin-bottom: 20px;
 }
@@ -618,11 +609,11 @@ img {
   color: #2196f3;
 }
 
-.nav__link.current {
+.current {
   position: relative;
   color: #2196f3;
 }
-.nav__link.current::after {
+.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -679,10 +670,10 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact__link:hover .contac__icon,
-.contact__link:focus .contac__icon,
-.contact__link:hover .contac__icon,
-.contact__link:focus .contac__icon {
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon,
+.contact__link:hover .contact__icon,
+.contact__link:focus .contact__icon {
   fill: #2196f3;
 }
 
@@ -714,7 +705,7 @@ img {
   color: #ffffff;
 }
 
-.section-hero .button {
+.hero__button {
   margin-left: auto;
   margin-right: auto;
 }
@@ -918,9 +909,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.clients__link:hover,
-.clients__link:focus {
+.clients__link:hover, .clients__link:focus {
   border: 1px solid #2196f3;
 }
 
@@ -998,9 +987,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.filter__button:hover,
-.filter__button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: #2196f3;
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
           box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -1036,9 +1023,7 @@ img {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }

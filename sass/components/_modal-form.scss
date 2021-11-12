@@ -20,10 +20,10 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-}
 
-.form__field:nth-child(5) {
-  margin-bottom: 20px;
+  &:nth-child(5) {
+    margin-bottom: 20px;
+  }
 }
 
 .form__label {
@@ -64,6 +64,8 @@
 
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+//!!!!!! Не соображу, как изменить селектор
 
 .form__input:hover + .form__icon,
 .form__input:focus + .form__icon {
@@ -119,10 +121,12 @@
   }
 }
 
+// !!!!!!!!! И тут надо поменять!
 .checkbox__input:checked + .checkbox__label::before {
   background-image: url(../images/icon-check.svg);
 }
 
+//!!!! Надо ли при фокусе?
 /* .checkbox__label:focus + .checkbox__label::before {
   } */
 
