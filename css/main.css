@@ -727,6 +727,16 @@ img {
           align-items: start;
 }
 
+.wrapper-gallery__element--5 {
+  display: block;
+  margin-top: 90%;
+}
+
+.wrapper-gallery__element--10 {
+  display: block;
+  margin-top: -25%;
+}
+
 .wrapper-gallery__img {
   border-radius: 20px;
   overflow: hidden;
